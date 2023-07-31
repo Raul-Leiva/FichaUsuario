@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:gravity="center"
         android:orientation="vertical">
 
         <Space
@@ -22,6 +23,8 @@
             android:id="@+id/editTextUsuario"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
             android:layout_weight="1"
             android:ems="10"
             android:hint="Usuario"
@@ -38,6 +41,8 @@
             android:id="@+id/editTextContraseña"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
             android:layout_weight="1"
             android:ems="10"
             android:hint="Contraseña"
@@ -49,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
+
     </LinearLayout>
 
     <LinearLayout
